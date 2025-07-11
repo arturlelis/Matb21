@@ -1,0 +1,274 @@
+:: StoryTitle
+enzo
+
+
+:: StoryData
+{
+  "ifid": "BE86B739-8281-41FB-A0D3-8A96D5ED349C",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Introdução ao Mundo Digital .1",
+  "tag-colors": {
+    "Narrador": "orange",
+    "Aviso": "red",
+    "voltar": "none"
+  },
+  "zoom": 0.6
+}
+
+
+:: AutenticacaoCerta {"position":"300,900","size":"100,100"}
+(text-colour:green)+[(align:"=><=====")[(align:"===><==")[(align:"<==")["Autenticação em dois fatores ativada com sucesso! A sala se abre."]]]]
+
+[[**Bit:** //"Muito bem!! Vamos continuar a jornada, acho que estamos conseguindo sair."//->ExplorarFinal]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_a241b9be1ffc43d58e32e0fc3da4c244.mp3" autoplay>
+
+
+:: ErroAutenticacao {"position":"800,900","size":"100,100"}
+(text-colour:red)+[(align:"=><=====")[(align:"===><==")["A autenticação em dois fatores não foi ativada. O castelo se fecha."]]]
+ 
+ **Enzo** precisa então compreender como funciona a autenticação 2FA e por que ela aumenta a segurança das contas.
+ 
+ [[**Bit:** //"Faça a escolha certa!//->ExplorarAutenticaçao]]
+ 
+ <audio src = "https://static.wixstatic.com/mp3/cad607_8af7cce8ec684390ab79273d7257cafc.mp3" autoplay>
+
+
+:: ErroCompartilhamento {"position":"800,700","size":"100,100"}
+(text-colour:red)+[(align:"=><=====")[(align:"===><==")["Você compartilhou sua localização. Seus dados foram capturados por um vilão digital!"]]]
+ 
+ **Enzo** agora está correndo perigo e precisa fugir e fazer a escolha certa para não ser pego pelo vilão digital.
+ 
+ [[**Bit:** //"Faça a escolha certa!//->ExplorarDadosPessoais]]
+ 
+<audio src = "https://static.wixstatic.com/mp3/cad607_8af7cce8ec684390ab79273d7257cafc.mp3" autoplay>
+
+
+:: ErroPhishing {"position":"800,500","size":"100,100"}
+(text-colour:red)+[(align:"=><=====")[(align:"===><==")["Você caiu em um golpe de phishing! Seus dados foram roubados!"]]]
+ 
+ **Enzo** acaba de cair em um golpe. É preciso ter mais atenção para identificar os links confiáveis entre os suspeitos e evitar cair em armadilhas de phishing.
+ 
+ [[**Bit:** //"Faça a escolha certa!//->FASE 2]]
+ 
+ <audio src = "https://static.wixstatic.com/mp3/cad607_8af7cce8ec684390ab79273d7257cafc.mp3" autoplay>
+
+
+:: Explorar {"position":"1400,700","size":"100,100"}
+(text-colour:cyan)[(align:"<==")+(box:"X=")[Onde estou? O que está acontecendo?]]
+
+
+(text-colour:magenta)[(align:"==>")+(box:"X=")[Bem-vindo à Cidade Digital. Para sair, você precisará proteger suas informações pessoais. Se falhar, seus dados serão roubados e você ficará preso aqui para sempre.]
+]
+[[FASE  1]]
+<audio src = "https://static.wixstatic.com/mp3/cad607_a9eb4559d53843a08c5eb250478763b3.mp3" autoplay>
+
+
+:: ExplorarAutenticaçao {"position":"550,850","size":"100,100"}
+Em sua caminhada com o seu companheiro eles se deparam com um grande castelo digital, guardado por um firewall gigante.
+(align:"=><=")+(box:"=XXXXXXXX=")[<a href="https://im.ge/i/Enzo-em-sua-caminhada-se-depara-com-um-grande-castelo-digital-guardado-por-um-firewall-gigante.JiztSm"><img src="https://i.im.ge/2025/07/12/JiztSm.Enzo-em-sua-caminhada-se-depara-com-um-grande-castelo-digital-guardado-por-um-firewall-gigante-.md.jpeg" alt="Enzo em sua caminhada se depara com um grande castelo digital guardado por um firewall gigante" border="0"></a>]
+Curiosos e com vontade de conhecer o lugar, eles caminham em direção a entrada e se assustam com uma mensagem: 
+
+(text-colour:yellow)[(align:"=><=")+(box:"X")["Para acessar, insira sua senha e habilite a autenticação em dois fatores. Para passar vocês precisam estar com a autentificação em dois fatores ativa, o que torna mais seguro a entrada."]]
+
+Escolha o que fazer:
+
+[[Usar senha simples e não habilitar 2FA->ErroAutenticacao]]
+[[Usar senha forte e ativar 2FA->AutenticacaoCerta]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_3e71ea4422fa42a98a6eb01793fb3bf7.mp3" autoplay>
+
+
+:: ExplorarDadosPessoais {"position":"550,650","size":"100,100"}
+(align:"=><=")+(box:"=XXXXXXXX=")[<a href="https://im.ge/i/Em-uma-rede-social-virtual-Enzo-observa-diversos-avatares-postando-fotos-localizacao-e-dados-pessoai.JizNvf"><img src="https://i.im.ge/2025/07/12/JizNvf.Em-uma-rede-social-virtual-Enzo-observa-diversos-avatares-postando-fotos-localizacao-e-dados-pessoais-.md.jpeg" alt="Em uma rede social virtual Enzo observa diversos avatares postando fotos localizacao e dados pessoai" border="0"></a>]
+Em uma rede social virtual, **Enzo** observa diversos avatares postando fotos, localização e dados pessoais. **Bit** o ensina e faz alertas sobre o que é seguro compartilhar.
+
+**Bit**: //"Cuidado, Enzo! Muitas pessoas compartilham dados pessoais aqui sem perceber 
+os riscos. Precisamos analisar essas postagens e decidir o que é seguro ou não publicar; reconstruir perfis respeitando a privacidade."//
+
+Em seguida, o seu companheiro lhe pergunta o que deve ser feito nas redes sociais:
+
+[[Compartilhar localização com o grupo->ErroCompartilhamento]]
+[[Não compartilhar dados pessoais->Seguro]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_4f8217b7bb5e4ca3aadba9eca0da05f4.mp3" autoplay>
+
+
+:: ExplorarFinal {"position":"550,1050","size":"100,100"}
+No centro da Cidade Digital, **Enzo** chega à base de controle, onde está o Escudo da Informação Segura — um núcleo de proteção que mantém os dados seguros e organiza o equilíbrio da cidade.
+
+**Bit:**//"**Enzo**, chegamos na última etapa você precisa usar tudo o que aprendeu para montar corretamente os componentes do escudo e assim conseguiremos sair desse mundo!!!//
+
+(align:"=><=")+(box:"X")[<a href="https://ibb.co/S4p72LJx"><img src="https://i.ibb.co/XrTk9wV4/No-centro-da-Cidade-Digital-Enzo-chega-base-de-controle-onde-est-o-Escudo-da-Informa-o-Segura-um-n-c.jpg" alt="No-centro-da-Cidade-Digital-Enzo-chega-base-de-controle-onde-est-o-Escudo-da-Informa-o-Segura-um-n-c" border="0"></a>]
+
+O garoto para alguns minutos e relembra toda a sua jornada com o seu companheiro, em seguida monta a ordem do escudo. 
+
+[[Escudo: 1 - Senha forte; 2 - Link seguro; 3 - Não compartilhar dados; 4 - Ativar Autentificação de dois fatores.)->FinalPositivo]]
+
+[[Escudo: 1 - Senha Fraca ; 2 - Link phishing; 3 - Ccompartilhar dados; 4 - Desativar Autentificação de dois fatores. ->FinalNegativo]]
+
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_525a82ee3c524421b9941f9fc46e5488.mp3" autoplay>
+
+
+:: FASE  1 {"position":"1075,200","size":"200,100"}
+(align:"=><=")+(box:"=XXXXXXXX=")[<a href="https://im.ge/i/Acesso-negado-Senha-incorreta.Ji3zaF"><img src="https://i.im.ge/2025/07/11/Ji3zaF.Acesso-negado-Senha-incorreta-.md.png" alt="Acesso negado Senha incorreta" border="0"></a>]
+
+**Enzo** chega a um prédio digital, com uma porta de segurança repleta de algoritmos girando. Para entrar, ele precisa criar uma senha forte que combine letras maiúsculas, minúsculas, números e símbolos. Uma vez que senhas assim são mais seguras!
+
+Logo em seguida, o seu companheiro diz: 
+
+[**Bit:** //"Aqui, neste prédio, você precisa usar uma senha forte! Tente criar uma senha longa e difícil de adivinhar!"//]
+
+(text-colour:red)+(bg:white)[(b4r:"inset")+(b4r-size:2.0)+(b4r-colour:white)[[Senha: 123456]]]
+
+(text-colour:red)+(bg:white)[(b4r:"inset")+(b4r-size:2.0)+(b4r-colour:white)[[Senha: P@ssw0rd2025!]]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_3e71ea4422fa42a98a6eb01793fb3bf7.mp3" autoplay>
+
+
+:: FASE 2 {"position":"550,450","size":"100,100"}
+Enzo caminha em direção à uma praça digital com várias notificações flutuantes, promoções irresistíveis e mensagens alarmantes pedindo cliques urgentes.
+
+(align:"=><=")+(box:"=XXXXXXXX=")[<a href="https://im.ge/i/Enzo-caminha-em-direcao-a-uma-praca-digital-com-varias-notificacoes-flutuantes-promocoes-irresistive.Jiz6E1"><img src="https://i.im.ge/2025/07/12/Jiz6E1.Enzo-caminha-em-direcao-a-uma-praca-digital-com-varias-notificacoes-flutuantes-promocoes-irresistiveis-e-mensagens-alarmantes-pedindo-cliques-urgentes-.md.jpeg" alt="Enzo caminha em direcao a uma praca digital com varias notificacoes flutuantes promocoes irresistive" border="0"></a>]
+
+Por estar supreso com esse espaço o seu companheiro lhe alerta:
+
+**Bit**:// "Cuidado! Alguns desses links podem ser de phishing. Se você clicar neles, seus dados podem ser roubados!"//
+
+Para passar desse desafio, o garoto Enzo precisa acessar o link confiável e oficial da praça digital para avançar no trajeto...
+
+[[Clicar no link  "Ganhe um 1000 reais já! Basta clicar!!"->ErroPhishing]]
+[[Clicar no link  "Acesse o site oficial da praça digital e confira."->PhishingSeguro]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_2c23de27b5084020993573fdb94863e9.mp3" autoplay>
+
+
+:: Fim {"position":"550,1400","size":"100,100"}
+**Enzo**, após completar todos os desafios e ativar o Escudo da Informação Segura, a Cidade Digital começa a brilhar intensamente. Os prédios de código se reorganizam, as ruas flutuantes se estabilizam e o céu se limpa, revelando uma aurora de dados em forma de luz.
+
+(align:"=><=")+(box:"X")[<a href="https://ibb.co/j2xpx7y"><img src="https://i.ibb.co/mwYxYQ9/Enzo-ap-s-completar-todos-os-desafios-e-ativar-o-Escudo-da-Informa-o-Segura-a-Cidade-Digital-come-a.jpg" alt="Enzo-ap-s-completar-todos-os-desafios-e-ativar-o-Escudo-da-Informa-o-Segura-a-Cidade-Digital-come-a" border="0"></a>]
+
+**Bit:**// "Parabéns, Enzo! Você dominou os segredos da segurança digital. Protegeu suas senhas, identificou ameaças e entendeu como cuidar melhor das suas informações. Agora, está pronto para voltar ao mundo real… mais consciente e preparado."//
+
+Em seguida, um portal se abre diante de Enzo, com linhas de código formando um caminho de retorno.
+
+
+
+**Enzo**:// "Nossa!! Foi uma aventura e tanto. Agora eu sei como me proteger de verdade no mundo digital."//
+
+[[**Enzo** atravessa o portal. A luz aumenta, e tudo fica branco por um instante...//->Fim2]]
+
+ <audio src = "https://static.wixstatic.com/mp3/cad607_15dcef2565c94d1c9dde69feacce609f.mp3" autoplay>
+
+
+:: Fim2 {"position":"700,1300","size":"100,100"}
+O garoto então desperta do sonho e com o tablet ainda nas mãos, recebe um notificação:
+
+(text-colour:yellow)[(align:"=><=")+(box:"X")["Dica do Dia: Nunca compartilhe senhas com ninguém!"]]
+
+(align:"=><=")+(box:"X")[<a href="https://ibb.co/bjtz70Bv"><img src="https://i.ibb.co/rK94vj6p/O-garoto-ent-o-desperta-do-sonho-e-com-o-tablet-ainda-nas-m-os-recebe-um-notifica-o.jpg" alt="O-garoto-ent-o-desperta-do-sonho-e-com-o-tablet-ainda-nas-m-os-recebe-um-notifica-o" border="0"></a>]
+
+Enzo sorri [[e escuta um sussurro.->Fim3]] 
+
+ <audio src = "https://static.wixstatic.com/mp3/cad607_530cc81df23440eea1e12c642009e4a6.mp3" autoplay>
+
+
+:: Fim3 {"position":"700,1425","size":"100,100"}
+Sussurro: 
+
+(align:"=><=")["//''Missão cumprida. Mas lembre-se: no mundo digital, a aventura da proteção continua... todos os dias.''//"]
+
+(align:"=><=")+(box:"X")[<a href="https://ibb.co/W4kGspcQ"><img src="https://i.ibb.co/nN76R8DT/uma-voz-do-al-m-no-mundo-digital-falando.jpg" alt="uma-voz-do-al-m-no-mundo-digital-falando" border="0"></a>]
+
+ <audio src = "https://static.wixstatic.com/mp3/cad607_6d64521fa4214778b2d35113c7808c29.mp3" autoplay>
+
+
+:: FinalNegativo {"position":"800,1100","size":"100,100"}
+(text-colour:red)+[(align:"=><=====")[(align:"===><==")["Você falhou em proteger seus dados. Volte e tente novamente!"]]]
+ 
+ **Enzo** precisa entender e consolidar os conhecimentos de todas as fases anteriores e aplicar boas práticas de segurança digital de forma integrada.
+ 
+ Por causa desse erro, eles são jogados de volta para o início da jornada e continuam presos na cidade.
+ 
+ [[**Bit:** //"Oi! Eu sou o Bit! Vou te ajudar a escapar da Cidade Digital! Vamos começar?"//->Explorar]]
+ 
+ 
+ <audio src = "https://static.wixstatic.com/mp3/cad607_b64dcf89b32b4d658ee1b0fe23f16769.mp3" autoplay>
+
+
+:: FinalPositivo {"position":"300,1100","size":"100,100"}
+(text-colour:green)+[(align:"=><=====")[(align:"===><==")["Parabéns! Você conseguiu! O escudo se ativa e você escapa da Cidade Digital, protegido por suas novas habilidades de segurança digital."]]]
+
+ [[**Bit:** //Conseguimos!!!!//->Fim]]
+ 
+ <audio src = "https://static.wixstatic.com/mp3/cad607_a9eb4559d53843a08c5eb250478763b3.mp3" autoplay>
+
+
+:: Introdução ao Mundo Digital .1 {"position":"1550,300","size":"100,100"}
+(align:"=><=")+(box:"=======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX===")[(text-colour:white)+(bg:black)[Depois de um dia cansativo, o garoto **Enzo** está quase dormindo, deitado na cama e mexendo no tablet. As pálpebras ficam pesadas e, sem perceber, ele pega no sono.
+De repente, algo estranho acontece, Enzo desperta em um local completamente diferente do seu quarto. Ao seu redor, prédios altos brilham com linhas de código, ruas se formam com fragmentos de dados.]]
+(align:"=><=")+(box:"=XXXXXXXX=")[<a href="https://im.ge/i/inicio.JiKnw6"><img src="https://i.im.ge/2025/07/11/JiKnw6.inicio.jpeg" alt="inicio" border="0"></a>
+]
+
+Confuso e assustado, **Enzo** olha ao redor... até que um pequeno robô simpático chamado **Bit** se aproxima, flutuando suavemente.
+
+(align:"=><=")+(box:"=======XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX===")[</style>
+<img
+src="https://video-public.canva.com/VAGYM3GcMgM/v/f6842b3159.gif">
+</div>]
+
+**Bit**: //"Oi! Eu sou o Bit! Fico feliz em te encontrar. Você caiu na Cidade Digital enquanto dormia com seu tablet ligado. Para voltar ao mundo real, vamos precisar passar por alguns desafios importantes: proteger senhas, defender seus dados, entender sobre privacidade e muito mais. Se errarmos, os vilões da rede podem capturar suas informações!"//
+
+[[Explorar o mundo digital->Explorar]]
+<audio src = "https://static.wixstatic.com/mp3/cad607_a9eb4559d53843a08c5eb250478763b3.mp3" autoplay>
+
+
+:: Perguntar {"position":"1700,700","size":"100,100"}
+**Enzo**: //"Onde estou? O que está acontecendo?"//
+
+Em seguida, o seu companheiro se junta na jornada e com grande entusiasmo grita:
+
+**Bit**: [//“Vamos embarcar nessa missão? Para escapar juntos e aprender a cuidar melhor da sua vida digital!"//]
+
+[[Explorar o mundo digital->Explorar]]
+
+
+:: PhishingSeguro {"position":"300,500","size":"100,100"}
+(text-colour:green)+[(align:"=><=====")[(align:"===><==")["Você clicou em um link seguro! Nada aconteceu."]]]
+
+**Enzo** entende que é necessário desenvolver o olhar crítico sobre e-mails, mensagens e sites falsos; aprender dicas práticas para não clicar em links maliciosos.
+
+[[**Bit:** //"Muito bem!! Vamos continuar a jornada."//->ExplorarDadosPessoais]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_a241b9be1ffc43d58e32e0fc3da4c244.mp3" autoplay>
+
+
+:: Seguro {"position":"300,700","size":"100,100"}
+(text-colour:green)+[(align:"=><=====")[(align:"===><==")[(align:"<==")["Você decidiu não compartilhar seus dados. Seus dados estão seguros."]]]]
+
+Então, o garoto **Enzo** compreendeu os riscos existes do excesso de exposição online, como golpes, perseguições e roubo de identidade. Dessa forma, ele se sente confiante para seguir a trajetória.
+
+[[**Bit:** //"Muito bem!! Vamos continuar a jornada."//->ExplorarAutenticaçao]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_a241b9be1ffc43d58e32e0fc3da4c244.mp3" autoplay>
+
+
+:: Senha: 123456 {"position":"1000,400","size":"100,100"}
+(text-colour:red)+[(align:"=><=====")[(align:"===><==")[A senha é muito fraca.]]]
+
+Devido a esse erro o prédio começa a desmoronar, e Enzo e seu companheiro precisa sair rapidamente antes de ficar preso!
+
+[[**Bit:** //"Faça a escolha certa!// ->FASE  1]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_8af7cce8ec684390ab79273d7257cafc.mp3" autoplay>
+
+
+:: Senha: P@ssw0rd2025! {"position":"800,300","size":"100,100"}
+(text-colour:green)+[(align:"=><=====")[(align:"===><==")[Senha Forte aceita!]]]
+Em seguida, o prédio se abre e Enzo com seu companheiro estão seguros para avançar na jornada.
+
+[[**Bit:** //"Muito bem!! Vamos continuar a jornada."//->FASE 2]]
+
+<audio src = "https://static.wixstatic.com/mp3/cad607_a241b9be1ffc43d58e32e0fc3da4c244.mp3" autoplay>
